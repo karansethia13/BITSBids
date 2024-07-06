@@ -1,0 +1,41 @@
+/* profile.css */
+
+/* Container for the entire profile */
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture */
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Profile information */
+.profile-info {
+  text-align: center;
+}
+
+/* Name */
+.profile-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Email */
+.profile-email,
+.profile-wallet {
+  font-size: 16px;
+  margin-bottom: 5px;
+}

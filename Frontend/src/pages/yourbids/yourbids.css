@@ -1,0 +1,40 @@
+/* Styling for the whole page */
+/* Add any global styles here */
+
+/* Styling for both tables */
+.buying-table,
+.selling-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f2f2f2; /* Grey background color for tables */
+}
+
+/* Padding between rows */
+.buying-table tr,
+.selling-table tr {
+  padding: 3rem 0; /* Padding between rows */
+}
+
+/* Styling for parent columns */
+.parentcolumnbuying,
+.parentcolumnselling {
+  background-color: black; /* Black background color for parent columns */
+  color: rgb(68, 68, 68); /* Text color for parent columns */
+}
+
+/* Styling for action buttons */
+.deletebutton button,
+.rejectbutton {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 0, 0); /* Green color for buttons */
+  color:white;
+}
+
+/* Hover effect for buttons */
+.deletebutton button:hover,
+.rejectbutton:hover {
+  background-color: rgb(125, 0, 0); /* Darker shade of green on hover */
+transition: all 0.5s ease;
+}

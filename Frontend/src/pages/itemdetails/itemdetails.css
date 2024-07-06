@@ -1,0 +1,14 @@
+.about-item-container{
+background-color: #333; /* Dark background color */
+color: white; /* White text color */
+padding: 20px;
+margin: 20px;}
+
+.abouttitle, .aboutcurrentbid, .aboutdescription{
+  color: rgb(255, 255, 255);
+}
+.aboutimage{
+  max-width: 100%; /* Maximum width set to 100% of the container */
+  max-height: 300px; /* Maximum height set to 300 pixels (adjust as needed) */
+  object-fit: cover;
+}

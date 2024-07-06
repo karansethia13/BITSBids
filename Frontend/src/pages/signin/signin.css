@@ -1,0 +1,75 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center; /* Center the text within the form */
+}
+
+.login-checkbox {
+  display: flex;
+  align-items: center; /* Center items horizontally */
+  margin-bottom: 10px;
+}
+
+.login-checkbox input {
+  margin-right: 0px;
+   /* Add some space between the checkbox and label */
+}
+
+.login-checkbox-label {  
+  font-size: 14px;
+  margin-right: 10px; /* Add some space between the checkbox and label */
+}
+
+.login-forgot-password {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Add some bottom margin */
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-google-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #db4a39;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-account-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.new-account-text {
+  margin-bottom: 10px;
+}
+
+.new-account-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #ffffff;
+  cursor: pointer;
+}
